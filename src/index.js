@@ -145,7 +145,7 @@ app.delete("/DeleteEmployee/:id", (req, res) => {
     if (err) {
       console.log(err);
     } else {
-      res.send("Data edeleted successfully...");
+      res.send("Data deleted successfully...");
     }
   });
 });
